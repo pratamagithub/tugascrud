@@ -1,0 +1,93 @@
+body .login-body{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url("slide1.jpg") no-repeat;
+    background-size: cover;
+}
+.sigin{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width:250px;
+    margin:auto;
+    margin-top: 80px;
+    height: 400px;
+    margin-left: 180x;
+}
+.signin form{
+    width:240px;
+    text-align: center;
+}
+.sigin form input
+{
+    width:240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16 px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0,5s;
+    outline: none;
+    color: #fff;
+}
+.sigin form input[type=button]{
+    border: none;
+    width: 190px;
+    background:white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 5px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.sigin form input[type=button]:hover
+{
+    color:#fff;
+    background-color: black;
+}
+h2{
+    color:white;
+}
+.a-class a{
+    color: yellow;
+    text-decoration: blink;
+}
+ a:hover{
+    color: rgb(245, 9, 9);
+}
+.container .a-class{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sigin ::placeholder
+{
+    color: aliceblue;
+    opacity: 0.8; /*firefox*/
+}
+.tombol{
+    border: none;
+    width: 100px;
+    background:rgb(10, 10, 10);
+    color: rgb(149, 252, 217);
+    font-size: 16px;
+    line-height: 25px;
+    padding: 4px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.tombol:hover{
+    color:black;
+    background-color:rgb(149, 252, 217);
+}
+.logo{
+width:100px;
+height:100px;
+border-radius:30px;
+position: absolute;
+top: 35px;
+left: calc(50% - 50px);
+}
